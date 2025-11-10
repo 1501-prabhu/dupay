@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primaryColor: #171717;
+    --secondaryColor: #161C2D;
+    --darkColor: #000000;
+    --lightColor: #ffffff;
+    --font-size-h1: 5.8rem;
+    --font-size-h2: 3.8rem;
+    --font-size-h3: 2.4rem;
+    --font-sizee-h3: 2.8rem;
+    --regularFont: 1.6rem;
+    --regularFonte: 1.8rem;
+    --ffPrimary: 'Co Headline', sans-serif;
+    --ffSecondary: "Inter", sans-serif;
+    --fw-regular: 400;
+    --fw-bold: 700;
+    --fw-bolder: 900;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+/* :::::SCROLL BAR CODE S T A R T S::::: */
+
+/* Width and height of the scrollbar */
+::-webkit-scrollbar {
+    width: 1.5rem;
+    height: 10px;
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+    background: #e3e4e6;
+    border-radius: 5px;
+}
+
+/* Scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #cececf;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b9b9ba;
+}
+
+/* :::::SCROLL BAR CODE E N D S::::: */
+
+/* project standard classes Starts */
+
+.screenSize {
+    max-width: 1010px;
+    margin: auto;
+}
+
+.componentSpacing {
+    padding: 3rem 0rem;
+}
+
+.navBargrid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0rem 2rem;
+    gap: 1rem;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 0rem 2rem;
+}
+
+.newsgrid {
+    display: grid;
+    grid-template-columns: 1.5fr 3.5fr;
+}
+
+.newsgridtwo {
+    display: grid;
+    grid-template-columns: 3.5fr 1.5fr;
+}
+
+.bloggrid {
+    display: grid;
+    grid-template-columns: 4.5fr 0.5fr;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-start {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.dflex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* project standard classes Ends */
+
+
+.way {
+    background: url(./assets/images/card_ltr_1_285867971f.png), linear-gradient(90deg, #4ba6c9 39%, #6c40b7 76.5%, #a436ae 99.45%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 10rem 0rem;
+}
+
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+    background-image: url(./assets/images/hero-bg-1x.5a334a81.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    /* padding-bottom: 25rem 0rem; */
+}
+
+main {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: linear-gradient(135deg, #062c79, #841875);
+    width: 100%;
+    height: auto;
+}
+
+/* :::PARENT CONTAINER Code Ends here::: */
+
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+
+.navBarBody {
+    padding: 1.6rem 0rem;
+}
+
+.logoBlock img {
+    width: auto;
+    height: 6.4rem;
+}
+
+#menuIcon{
+    /* display: none */
+}
+
+.links {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 3rem;
+}
+
+.links li {
+    list-style-type: none;
+}
+
+.links li a {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: white;
+    font-weight: var(--fw-regular);
+}
+
+.linksa a {
+    color: #000000;
+}
+
+button {
+    background-color: #3675f4;
+    font-family: var(--ffSecondary);
+    color: var(--lightColor);
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.8rem 2.9rem;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #0a58ca;
+    color: var(--lightColor);
+    transition: background-color 0.2s ease;
+}
+
+/* Navbar code */
+
+/* Hero Section code */
+.heroSectioncontainer {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.heroSectionBody {
+    /* background-color: #000000;    */
+    /* padding-left: 5rem; */
+
+}
+
+.heroSectionBlockOne {
+    /* background-color: #4ba6c9; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* width: 60%;   */
+    /* position: absolute; */
+    /* right: 0; */
+    /* margin-left: 50rem; */
+    max-width: 400px;
+    margin: auto;
+}
+
+.heroSectionBlockOne h1 {
+    font-family: var(--ffPrimary);
+    font-weight: 900;
+    font-size: 5.2rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.heroSectionBlockOne p {
+    font-family: var(--ffPrimary);
+    font-size: 3.2rem;
+    color: white;
+    font-weight: 200;
+    line-height: 1;
+    margin: 2rem 0rem;
+}
+
+.qrcard {
+    border-radius: 14.037px;
+    border: 1.195px solid hsla(0, 0%, 100%, .25);
+    background: hsla(0, 0%, 100%, .02);
+    box-shadow: 1px 3px 11.1px 0 rgba(0, 0, 0, .08);
+}
+
+.qrcardHead {
+    padding: 3rem;
+
+}
+
+.qrcardHead h4 {
+    font-family: var(--ffPrimary);
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.qrcardHead p {
+    font-family: var(--ffSecondary);
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.qrcardBody img {
+    padding: 5px;
+}
+
+.heroSectionBlockTwo {
+    background-image: url(./assets/images/du_Pay_Gold_Coin_Web_Banners_V3_Home_Banner_1054x1284_EN_50_9d8f895182.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 37rem 0rem;
+    /* max-width: 1400px; */
+    /* margin: auto; */
+}
+
+.heroSectionBlockOne button {
+    display: none;
+}
+
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+
+.offerHeadingBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.2rem;
+    color: #041e50;
+    font-weight: 800;
+    /* line-height: 1; */
+    margin-bottom: 10rem;
+    background-color: #000000;
+}
+
+h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4rem;
+    color: #041e50;
+    font-weight: 400;
+    /* line-height: 1; */
+    /* margin-bottom: 2rem; */
+}
+
+/* Our Menu code */
+
+/* Facility code */
+/* Facility code */
+
+/* Popular code */
+/* Popular code */
+
+/* Gallery code */
+/* Gallery code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icons code */
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
+
+/* ::::: RESPONSIVE DESIGN DEVICE SIZES ::::: */
+
+/* for Responsive Target the ROW Code (display:grid) */
+
+/* Small devices (landscape phones, upto 576px and below) */
+/* @media (width <=576px) */
+@media (max-width: 576px) {
+
+    .grid-1,
+    .grid-2,
+    .grid-3,
+    .grid-4 {
+        grid-template-columns: 1fr;
+        padding: 0rem 1rem;
+    }
+
+    .heroSection {
+        padding-top: 20rem;
+    }
+
+    header {
+        background-position: left top;
+    }
+
+    .heroSectionBlockTwo {
+        display: none;
+    }
+
+    .qrcard {
+        display: none;
+    }
+
+    .heroSectionBlockOne button {
+        display: block;
+    }
+
+
+}
+
+/* Medium devices (tablets, upto 768px and above) */
+/* @media (width >=577px) and (width <=768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* write code here */
+}
+
+/* Large devices (Laptops, upto 992px and above) */
+/* @media (width >=769px) and (width <=992px) */
+@media (min-width: 769px) and (max-width: 992px) {
+    /* write code here */
+}
+
+/* X-Large devices (large desktops, upto 1200px and above) */
+/* @media (width >=993px) and (width <=1200px) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    /* write code here */
+}
+
+/* XX-Large devices (larger desktops, upto 1400px and above) */
+/* @media (width >=1200px) */
+@media (min-width: 1201px) {
+    /* write code here */
+}
