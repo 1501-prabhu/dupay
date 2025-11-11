@@ -176,7 +176,7 @@ footer {
     font-family: var(--ffSecondary);
     color: var(--lightColor);
     font-size: 1.6rem;
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: 1;
     letter-spacing: 0.1rem;
 
@@ -349,7 +349,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -387,7 +387,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -439,7 +439,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -462,7 +462,7 @@ footer {
 .wayBody {
     padding-top: 4rem;
     padding-bottom: 11rem;
-    
+
 }
 
 .wayBlock {
@@ -483,7 +483,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--lightColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -527,7 +527,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -563,7 +563,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -580,7 +580,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 
 }
@@ -598,7 +598,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 
 }
@@ -625,7 +625,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
     margin-left: 3rem;
 }
@@ -634,7 +634,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
     margin-top: 3rem;
 
@@ -655,7 +655,7 @@ footer {
 
 .flagsBlock img {
     width: 100%;
-    aspect-ratio: 3/2      ;
+    aspect-ratio: 3/2;
 }
 
 /* flags code */
@@ -715,7 +715,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -748,7 +748,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--primaryColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
     margin-top: 3rem;
     text-align: center;
@@ -810,7 +810,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--lightColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -828,7 +828,7 @@ footer {
     font-family: var(--ffSecondary);
     font-size: var(--regularFont);
     color: var(--lightColor);
-    font-weight: var(--fw-regular)r;
+    font-weight: var(--fw-regular);
     line-height: var(--lineHeight);
 }
 
@@ -881,6 +881,7 @@ footer {
 
     :root {
         --font-size-h2: 2rem;
+        --regularFont: 1.6rem;
     }
 
     .grid-2,
@@ -962,7 +963,7 @@ footer {
         font-family: var(--ffSecondary);
         color: var(--lightColor);
         font-size: 1.6rem;
-        font-weight: var(--fw-regular)r;
+        font-weight: var(--fw-regular);
         line-height: 1;
         letter-spacing: 0.1rem;
 
@@ -999,84 +1000,98 @@ footer {
         padding: 0rem 5rem;
     }
 
-    .wayContainer{
-        padding: 0rem 5rem;
-
-    }
-    
-    .trustContainer{
-        padding: 0rem 5rem;
-    }
-
-    .featureContainer{
-        padding: 0rem 5rem;
-        
-    }
-
-    .getStartedContainer{
+    .wayContainer {
         padding: 0rem 5rem;
 
     }
 
-    .knowMoreContainer{
+    .trustContainer {
         padding: 0rem 5rem;
     }
 
-    .footerContainer{
+    .featureContainer {
+        padding: 0rem 5rem;
+
+    }
+
+    .getStartedContainer {
+        padding: 0rem 5rem;
+
+    }
+
+    .knowMoreContainer {
         padding: 0rem 5rem;
     }
+
+    .footerContainer {
+        padding: 0rem 5rem;
+    }
+
     .wayBlock {
         width: 100%;
     }
 
-    .trustImageBlock{
+    .trustImageBlock {
         display: none;
     }
 
-    .knowMoreBlock h3{
+    .knowMoreBlock h3 {
         font-size: 3rem;
     }
 
-    .knowMoreContentBody{
+    .knowMoreContentBody {
         grid-template-columns: 1fr 1fr;
     }
-    .joinBody{
+
+    .joinBody {
         flex-wrap: wrap;
     }
 
-    .footerBody,.footerBodyTwo,.footerBodyThree{
+    .footerBody,
+    .footerBodyTwo,
+    .footerBodyThree {
         grid-template-columns: 1fr;
 
     }
-    .footerLogoBlock,.footersocialBlock{
+
+    .footerLogoBlock,
+    .footersocialBlock {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 2rem;
     }
-    .footersocialBlockTwo{
+
+    .footersocialBlockTwo {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .offerContentBlock{
+    .offerContentBlock {
         padding: 4rem;
-    }
-    .instantContentBlock{
-        padding: 4rem;
-    }
-    .paymentContentBlock{
-        padding: 4rem;
-    }
-    .knowMoreBlockOne{
-        padding: 1rem;
     }
 
-    
+    .instantContentBlock {
+        padding: 4rem;
+    }
 
-}   
+    .paymentContentBlock {
+        padding: 4rem;
+    }
+
+    .knowMoreBlockOne {
+        padding: 1.5rem;
+    }
+
+    .knowMoreBlockOne i {
+        font-size: 1.5rem;
+    }
+
+
+
+}
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (width >=577px) and (width <=768px) */
