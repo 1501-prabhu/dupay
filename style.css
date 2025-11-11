@@ -980,49 +980,18 @@ footer {
         transition: background-color 0.2s ease;
     }
 
-    /* offer code */
-
     .offerHeadingBlock h2 {
         margin-bottom: 2rem;
     }
 
-    .offerContainer {
-        padding: 0rem 5rem;
-    }
-
-    /* offer code */
-
-    .instantContainer {
-        padding: 0rem 5rem;
-    }
-
-    .paymentContainer {
-        padding: 0rem 5rem;
-    }
-
-    .wayContainer {
-        padding: 0rem 5rem;
-
-    }
-
-    .trustContainer {
-        padding: 0rem 5rem;
-    }
-
-    .featureContainer {
-        padding: 0rem 5rem;
-
-    }
-
-    .getStartedContainer {
-        padding: 0rem 5rem;
-
-    }
-
-    .knowMoreContainer {
-        padding: 0rem 5rem;
-    }
-
+    .offerContainer,
+    .instantContainer,
+    .paymentContainer,
+    .wayContainer,
+    .trustContainer,
+    .featureContainer,
+    .getStartedContainer,
+    .knowMoreContainer,
     .footerContainer {
         padding: 0rem 5rem;
     }
@@ -1069,15 +1038,9 @@ footer {
         align-items: center;
     }
 
+    .instantContentBlock,
+    .paymentContentBlock,
     .offerContentBlock {
-        padding: 4rem;
-    }
-
-    .instantContentBlock {
-        padding: 4rem;
-    }
-
-    .paymentContentBlock {
         padding: 4rem;
     }
 
@@ -1089,13 +1052,9 @@ footer {
         font-size: 1.5rem;
     }
 
-    .knowMoreBlock h3{
+    .knowMoreBlock h3 {
         font-size: 1.6rem;
     }
-
-
-
-
 }
 
 /* Medium devices (tablets, upto 768px and above) */
