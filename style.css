@@ -896,8 +896,6 @@ footer {
         margin-left: 2rem;
     }
 
-
-
     .linksBlock .hamburgerIcon {
         display: block;
         position: absolute;
@@ -959,7 +957,7 @@ footer {
     }
 
     .heroSectionBlockOne button {
-        background-color: #3675f4;
+        background-color: var(--secondaryColor);
         font-family: var(--ffSecondary);
         color: var(--lightColor);
         font-size: 1.6rem;
@@ -1055,6 +1053,11 @@ footer {
     .knowMoreBlock h3 {
         font-size: 1.6rem;
     }
+
+    .way {
+        background: linear-gradient(90deg, #4ba6c9 39%, #6c40b7 76.5%, #a436ae 99.45%);
+    }
+
 }
 
 /* Medium devices (tablets, upto 768px and above) */
