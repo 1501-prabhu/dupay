@@ -321,8 +321,8 @@ footer {
 }
 
 .offerImageBlock img {
-    width: auto;
-    height: 39rem;
+    width: 100%;
+    height: 1/1;
     padding: 0.5rem;
 }
 
@@ -397,8 +397,8 @@ footer {
 }
 
 .instantImageBlock img {
-    width: auto;
-    height: 39rem;
+    width: 100%;
+    height: 1/1;
     padding: 0.5rem;
 }
 
@@ -412,8 +412,8 @@ footer {
 }
 
 .paymentImageBlock img {
-    width: auto;
-    height: 39rem;
+    width: 100%;
+    height: 1/1;
     padding: 0.5rem;
 }
 
@@ -641,8 +641,8 @@ footer {
 }
 
 .getStartedImageBlock img {
-    width: auto;
-    height: 45rem;
+    width: 100%;
+    height: 1/1;
 }
 
 /* getStarted code */
@@ -1003,7 +1003,7 @@ footer {
         padding: 0rem 5rem;
 
     }
-
+    
     .trustContainer{
         padding: 0rem 5rem;
     }
@@ -1060,9 +1060,23 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
+    .offerContentBlock{
+        padding: 4rem;
+    }
+    .instantContentBlock{
+        padding: 4rem;
+    }
+    .paymentContentBlock{
+        padding: 4rem;
+    }
+    .knowMoreBlockOne{
+        padding: 1rem;
+    }
+
     
 
-}
+}   
 
 /* Medium devices (tablets, upto 768px and above) */
 /* @media (width >=577px) and (width <=768px) */
