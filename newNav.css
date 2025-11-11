@@ -1,5 +1,4 @@
 .navBar {
-    /* background-color: rgb(0, 0, 0) */
     position: fixed;
     top: 0;
     left: 0;
@@ -9,7 +8,6 @@
 }
 
 .navBarContainer {
-    /* background-color: blue */
     max-width: 1010px;
     margin: auto;
 }
@@ -20,15 +18,11 @@
     padding: 1.6rem 0rem;
 }
 
-.logoBlock {}
 
 .logoBlock img {
     width: auto;
     height: 6.4rem;
 }
-
-.linksBlock {}
-
 
 .links {
     display: flex;
@@ -37,9 +31,7 @@
     width: 100%;
     height: 100%;
     gap: 3rem;
-
 }
-
 
 .links li {
     list-style-type: none;
@@ -51,7 +43,6 @@
     color: white;
     font-weight: var(--fw-regular);
 }
-
 
 .linksBlock button {
     background-color: #3675f4;
