@@ -4,21 +4,21 @@ window.addEventListener("scroll", function () {
   const logo = document.getElementById("logo");
 
   if (window.scrollY > 0) {
-    navbar.classList.add("sticky");
+    navbar.classList.add("sticky","hamburgerIcon");
     logo.src = "./assets/images/dupay_blue.29119847.svg";
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove("sticky","hamburgerIcon");
     logo.src = "./assets/images/dupay_white.71764264.svg";
   }
 });
 
 // ===== Toggle Menu (for mobile) =====
-const menuIcon = document.getElementById("menuIcon");
-const linksBlock = document.getElementById("linksBlock");
+// const menuIcon = document.getElementById("menuIcon");
+// const linksBlock = document.getElementById("linksBlock");
 
-menuIcon.addEventListener("click", () => {
-  linksBlock.classList.toggle("active");
-  // Toggle icon between bars and X
-  menuIcon.classList.toggle("fa-bars");
-  menuIcon.classList.toggle("fa-xmark");
-});
+// menuIcon.addEventListener("click", () => {
+//   linksBlock.classList.toggle("active");
+ 
+//   menuIcon.classList.toggle("fa-bars");
+//   menuIcon.classList.toggle("fa-xmark");
+// });

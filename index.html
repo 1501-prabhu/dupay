@@ -12,8 +12,9 @@
     <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous"> -->
     <!-- CSS -->
+    <link rel="stylesheet" href="./newNav.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./navBar.css">
+    <!-- <link rel="stylesheet" href="./navBar.css"> -->
     <!-- font awesome icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
@@ -33,7 +34,34 @@
     <header>
 
         <!-- navigationBar-Section -->
+
         <nav class="navBar" id="navBar">
+            <div class="navBarContainer">
+                <div class="navBarBody">
+                    <div class="logoBlock">
+                        <figure>
+                            <img src="./assets/images/dupay_white.71764264.svg" alt="logo" id="logo">
+                        </figure>
+                    </div>
+                    <div class="linksBlock" id="linksBlock">
+                        <label for="iconToggle" class="hamburgerIcon">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <input type="checkbox" id="iconToggle">
+                        <ul class="links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><button type="button">Download App</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </nav>
+
+
+        <!-- navigationBar-Section -->
+        <!-- <nav class="navBar" id="navBar">
             <div class="navBarContainer">
                 <div class="logoBlock">
                     <img src="./assets/images/dupay_white.71764264.svg" alt="logo" id="logo">
@@ -48,7 +76,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
 
         <!-- hero-Section -->
@@ -107,7 +135,7 @@
         </section>
 
         <!-- instant-Section -->
-        <section class="instant componentSpacing">
+        <section class="instant ">
             <div class="instantContainer screenSize">
 
                 <div class="instantBody grid-2">
@@ -134,8 +162,7 @@
                 <div class="paymentBody grid-2">
                     <div class="paymentImageBlock">
                         <figure>
-                            <img src="./assets/images/getstarted_in_3_simple_steps_662388c3c3fcf_dbbbbbe005.webp"
-                                alt="payment">
+                            <img src="./assets/images/payments_made_simple_6623887e5048d_c9b2ba0c6c.webp" alt="payment">
                         </figure>
                     </div>
                     <div class="paymentContentBlock">
@@ -152,23 +179,25 @@
 
 
         <!-- way-Section -->
-        <section class="way componentSpacing">
-            <div class="wayContainer screenSize">
+        <section class="way">
+            <div class="wayContainer ">
                 <div class="wayBody">
-                    <div class="wayBlock">
+                    <div class="wayBlock ">
                         <h2>Your payments, your way.</h2>
                         <p>Get your very own du Pay card</p>
-                        <div class="wayCardone">
-                            <p>Contactless payments</p>
-                        </div>
-                        <div class="wayCardTwo">
-                            <p>Set card limits</p>
-                        </div>
-                        <div class="wayCardThree">
-                            <p>Block/unblock your card anytime</p>
-                        </div>
-                        <div class="wayCardFour">
-                            <p>Simplify cash withdrawals</p>
+                        <div class="wayCards">
+                            <div class="wayCardone">
+                                <p>Contactless payments</p>
+                            </div>
+                            <div class="wayCardone">
+                                <p>Set card limits</p>
+                            </div>
+                            <div class="wayCardone">
+                                <p>Block/unblock your card anytime</p>
+                            </div>
+                            <div class="wayCardone">
+                                <p>Simplify cash withdrawals</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -176,9 +205,9 @@
         </section>
 
         <!-- trust-Section -->
-        <section class="trust componentSpacing">
-            <div class="trustContainer screenSize">
-                <div class="trustBody grid-2">
+        <section class="trust">
+            <div class="trustContainer ">
+                <div class="trustBody">
                     <div class="trustContentBlock">
                         <h2>Your trust is our priority</h2>
                         <p>du Pay is a secure mobile payment service, regulated by the Central Bank of the UAE. We use
@@ -196,30 +225,30 @@
         </section>
 
         <!-- features-Section -->
-        <section class="features componentSpacing">
-            <div class="featureContainer screenSize">
-                <div class="featureBody grid-3">
+        <section class="features">
+            <div class="featureContainer">
+                <div class="featureBody">
                     <div class="featureBlockone">
                         <i class="fa-solid fa-lock"></i>
                         <p>We use 2-factor authentication, fraud prevention, and a secure backend infrastructure.</p>
                     </div>
-                    <div class="featureBlockone">
+                    <div class="featureBlocktwo">
                         <i class="fa-solid fa-shield-halved"></i>
                         <p>By tying your account to your mobile number, we ensure you’re always in control.</p>
                     </div>
-                    <div class="featureBlockone">
+                    <div class="featureBlockthree">
                         <i class="fa-solid fa-building-columns"></i>
-                        We’re partnered with established financial institutions to ensure your money is safe.
-
+                        <p>We’re partnered with established financial institutions to ensure your money is safe.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- getStarted-Section -->
-        <section class="getStarted componentSpacing">
-            <div class="getStartedContainer screenSize">
-                <div class="getStartedBody grid-2">
+        <section class="getStarted ">
+            <div class="getStartedContainer ">
+                <div class="getStartedBody ">
                     <div class="getStartedContentBlock">
                         <h2>Get started in 3 simple steps</h2>
                         <ul>

@@ -80,12 +80,12 @@ a {
 /* project standard classes Starts */
 
 .screenSize {
-    max-width: 1010px;
+    max-width: 1000px;
     margin: auto;
 }
 
 .componentSpacing {
-    padding: 3rem 0rem;
+    padding: 2rem 0rem;
 }
 
 .navBargrid {
@@ -151,16 +151,6 @@ a {
 
 /* project standard classes Ends */
 
-
-.way {
-    background: url(./assets/images/card_ltr_1_285867971f.png), linear-gradient(90deg, #4ba6c9 39%, #6c40b7 76.5%, #a436ae 99.45%);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    padding: 10rem 0rem;
-}
-
-
 /* :::PARENT CONTAINER Code Starts here::: */
 
 header {
@@ -190,44 +180,15 @@ footer {
 /* :::HEADER Code Starts hereE::: */
 /* Navbar code */
 
-.navBarBody {
-    padding: 1.6rem 0rem;
-}
 
-.logoBlock img {
-    width: auto;
-    height: 6.4rem;
-}
 
-#menuIcon{
-    /* display: none */
-}
 
-.links {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 3rem;
-}
 
-.links li {
-    list-style-type: none;
-}
-
-.links li a {
-    font-family: var(--ffSecondary);
-    font-size: 1.8rem;
-    color: white;
-    font-weight: var(--fw-regular);
-}
-
-.linksa a {
+/* .linksa a {
     color: #000000;
-}
+} */
 
-button {
+/* button {
     background-color: #3675f4;
     font-family: var(--ffSecondary);
     color: var(--lightColor);
@@ -241,13 +202,13 @@ button {
     border-radius: 1rem;
     padding: 1.8rem 2.9rem;
     transition: background-color 0.2s ease;
-}
+} */
 
-button:hover {
+/* button:hover {
     background-color: #0a58ca;
     color: var(--lightColor);
     transition: background-color 0.2s ease;
-}
+} */
 
 /* Navbar code */
 
@@ -345,40 +306,447 @@ button:hover {
 /* :::HEADER Code Ends here::: */
 
 /* :::MAIN Code Starts here::: */
-/* Our Menu code */
+/* offer code */
 
 .offerHeadingBlock h2 {
     font-family: var(--ffPrimary);
-    font-size: 4.2rem;
+    font-size: 4.4rem;
     color: #041e50;
     font-weight: 800;
     /* line-height: 1; */
     margin-bottom: 10rem;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 
-h2 {
+.offerImageBlock img {
+    width: auto;
+    height: 39rem;
+    padding: 0.5rem;
+}
+
+.offerContentBlock {
+    /* background-color: darkblue; */
+    /* background-color: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);; */
+    background: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+    border-radius: 3rem;
+    padding: 5rem 0rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.offerContentBlock h2 {
     font-family: var(--ffPrimary);
-    font-size: 4rem;
+    font-size: 4.4rem;
     color: #041e50;
-    font-weight: 400;
-    /* line-height: 1; */
-    /* margin-bottom: 2rem; */
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
 }
 
-/* Our Menu code */
 
-/* Facility code */
-/* Facility code */
+.offerContentBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+}
 
-/* Popular code */
-/* Popular code */
+.offerContentBlock i {
+    font-size: 5rem;
+    color: #6f42c1;
+}
 
-/* Gallery code */
-/* Gallery code */
+/* offer code */
 
-/* Team code */
-/* Team code */
+/* instant code */
+.instantImageBlock img {
+    width: auto;
+    height: 39rem;
+    padding: 0.5rem;
+}
+
+.instantBody {
+    background: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+    border-radius: 3rem;
+    max-width: 950px;
+    margin: auto;
+}
+
+.instantContentBlock {
+    /* background-color: darkblue; */
+    /* background-color: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);; */
+    /* background: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%); */
+    /* border-radius: 3rem; */
+    padding: 4rem 0rem;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.instantContentBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.4rem;
+    color: #041e50;
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.instantContentBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.instantContentBlock i {
+    font-size: 5rem;
+    color: #6f42c1;
+}
+
+/* instant code */
+
+/* Payment code */
+.payment {
+    padding-bottom: 5rem;
+}
+
+.paymentImageBlock img {
+    width: auto;
+    height: 39rem;
+    padding: 0.5rem;
+}
+
+.paymentContentBlock {
+    /* background-color: darkblue; */
+    /* background-color: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);; */
+    background: linear-gradient(115deg, #f3fbfd, #fdf5fc 98.31%);
+    border-radius: 3rem;
+    padding: 5rem 0rem;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.paymentContentBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.4rem;
+    color: #041e50;
+    font-weight: 800;
+    line-height: 1;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.paymentContentBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.paymentContentBlock i {
+    font-size: 5rem;
+    color: #6f42c1;
+}
+
+/* Payment code */
+
+/* way code */
+.way {
+    background: url(./assets/images/card_ltr_1_285867971f.png), linear-gradient(90deg, #4ba6c9 39%, #6c40b7 76.5%, #a436ae 99.45%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    /* padding: 10rem 0rem; */
+}
+
+.wayContainer {
+    max-width: 1010px;
+    margin: auto;
+}
+
+.wayBody {
+    /* background-color: #000000; */
+    width: 40%;
+    height: 100%;
+
+}
+
+.wayBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.4rem;
+    color: white;
+    font-weight: 800;
+    line-height: 1.3;
+    /* padding: 5rem 0rem; */
+    padding-top: 4.5rem;
+    margin-bottom: 3rem;
+}
+
+.wayBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 400;
+    line-height: 1.3;
+    /* margin: 5rem 0rem;    */
+}
+
+.wayCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 1.8rem; */
+    row-gap: 1.5rem;
+    column-gap: 2.5rem;
+    margin-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+.wayCardone {
+    background: hsla(0, 0%, 100%, .21);
+    border-radius: 1rem;
+    padding: 1.5rem 1.5rem;
+}
+
+.wayCardone p {
+    /* padding: 1rem; */
+}
+
+/* way code */
+
+/* trust code */
+
+.trust {
+    padding: 8rem 0rem;
+}
+
+.trustContainer {
+    max-width: 1020px;
+    margin: auto;
+}
+
+.trustBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.trustContentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.trustContentBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.4rem;
+    color: #041e50;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
+.trustContentBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.trustImageBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trustImageBlock img {
+    width: auto;
+    height: 45rem;
+    padding: 1rem;
+}
+
+/* trust code */
+
+/* features code */
+.features {
+    padding: 4rem 0rem;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.featureContainer {
+    max-width: 1020px;
+    margin: auto;
+
+}
+
+.featureBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.featureBlockone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featureBlockone i {
+    color: #e240c8;
+    font-size: 4rem;
+}
+
+.featureBlockone p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+
+
+}
+
+.featureBlocktwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featureBlocktwo i {
+    color: #6f42c1;
+    font-size: 4rem;
+}
+
+.featureBlocktwo p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+
+}
+
+.featureBlockthree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.featureBlockthree i {
+    color: #0dcaf0;
+    font-size: 4rem;
+}
+
+.featureBlockthree p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+
+}
+
+/* features code */
+
+/* getStarted code */
+
+.getStarted {
+    padding: 10rem 0rem;
+}
+
+.getStartedContainer {
+    max-width: 1030px;
+    margin: auto;
+}
+
+.getStartedBody {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 3rem; */
+}
+
+.getStartedContentBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.getStartedContentBlock h2 {
+    font-family: var(--ffPrimary);
+    font-size: 4.4rem;
+    color: #041e50;
+    font-weight: 800;
+    line-height: 1;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.getStartedContentBlock li {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-left: 3rem;
+}
+
+.getStartedContentBlock p {
+    font-family: var(--ffSecondary);
+    font-size: 1.8rem;
+    color: #041E50;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-top: 3rem;
+
+}
+
+.getStartedImageBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getStartedImageBlock img {
+    width: auto;
+    height: 45rem;
+}
+
+/* getStarted code */
+
+/* flags code */
+.flagsBlock img {
+    width: auto;
+    height: 63rem;
+}
+
+/* flags code */
+
 /* :::MAIN Code Ends here::: */
 
 /* :::FOOTER Code Starts here::: */
@@ -407,7 +775,7 @@ h2 {
     }
 
     .heroSection {
-        padding-top: 20rem;
+        padding: 18rem 0rem;
     }
 
     header {
@@ -424,6 +792,28 @@ h2 {
 
     .heroSectionBlockOne button {
         display: block;
+    }
+
+    .heroSectionBlockOne button {
+        background-color: #3675f4;
+        font-family: var(--ffSecondary);
+        color: var(--lightColor);
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 1;
+        letter-spacing: 0.1rem;
+
+        cursor: pointer;
+        border: none;
+        border-radius: 1rem;
+        padding: 1.8rem 2.9rem;
+        transition: background-color 0.2s ease;
+    }
+
+    .heroSectionBlockOne button:hover {
+        background-color: #0a58ca;
+        color: var(--lightColor);
+        transition: background-color 0.2s ease;
     }
 
 
